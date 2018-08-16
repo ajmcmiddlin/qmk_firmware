@@ -1,1 +1,1 @@
-KEY_LOCK_ENABLE  = yes # Enable KC_LOCK
+../../../ergodox_ez/keymaps/ajmcmiddlin/rules.mk
