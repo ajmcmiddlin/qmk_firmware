@@ -1,4 +1,5 @@
-#include "ergodox_ez.h"
+// #include "ergodox_ez.h"
+#include QMK_KEYBOARD_H
 #include "debug.h"
 #include "action_layer.h"
 #include "version.h"
@@ -103,12 +104,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       }
       return false;
       break;
-    case RGB_SLD:
-      if (record->event.pressed) {
-        rgblight_mode(1);
-      }
-      return false;
-      break;
+    /* case RGB_SLD: */
+    /*   if (record->event.pressed) { */
+    /*     rgblight_mode(1); */
+    /*   } */
+    /*   return false; */
+    /*   break; */
 
   }
   return true;
